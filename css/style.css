@@ -1,0 +1,114 @@
+.nut__title, .instruction__title, .ingredient__title {
+  color: rgb(138, 62, 9);
+  font-family: font2;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.instruction__highlight, .time__highlight {
+  color: rgb(71, 34, 7);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1270px) {
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner__img {
+    width: 99%;
+  }
+}
+.recepie {
+  text-align: start;
+}
+.recepie__title {
+  font-family: font2;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.recepie__description {
+  font-family: font2;
+  font-weight: 100;
+}
+
+.time {
+  background-color: rgb(243, 227, 230);
+  height: 200px;
+  margin-top: 50px;
+  font-family: font1;
+  border-radius: 8px;
+}
+.time__title {
+  padding: 15px 30px 0px 30px;
+  color: brown;
+  font-weight: 600;
+}
+.time__app {
+  padding: 10px;
+}
+.ingredient {
+  border-bottom: 1px solid grey;
+  margin-top: 80px;
+}
+.ingredient__item {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: font1;
+}
+
+.instruction {
+  margin-top: 50px;
+  border-bottom: 1px solid grey;
+}
+.instruction__no {
+  padding: 15px 30px;
+}
+
+.nut {
+  margin-bottom: 3rem;
+}
+.nut__table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: font1;
+}
+.nut__text--high {
+  padding: 10px 80px;
+  border-bottom: 1px solid gray;
+  border-right: none;
+  font-weight: 800;
+  font-family: font1;
+}
+.nut__text--light {
+  color: rgb(138, 62, 9);
+  padding: 10px 80px;
+  border-bottom: 1px solid gray;
+  border-left: none;
+  font-family: font1;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
