@@ -14,6 +14,7 @@ body {
   width: 100%;
 }
 // media quarry
+// mobile
 @media screen and (min-width: 375px) {
   .container {
     width: 1200px;
@@ -21,14 +22,28 @@ body {
     margin-right: 50px;
   }
 }
+// desktop
 @media screen and (min-width: 1270px) {
+  body {
+    background-color: rgb(221, 189, 129);
+    height: 250vh;
+  }
   .container {
+    width: 1127px;
+  }
+  .top-container {
+    margin-top: 180px;
     width: 1200px;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid black;
+    border-radius: 30px;
   }
   .banner__img {
     width: 99%;
+    margin-top: 60px;
+    border-radius: 30px;
   }
 }
 // recepie
